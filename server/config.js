@@ -2,18 +2,18 @@ const CONF = {
     port: '5959',
     rootPathname: '',
 
-    serverHost: '192.168.199.161',
+    serverHost: 'localhost',
     tunnelServerUrl: '',
-    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    tunnelSignatureKey: '',
       // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
-    qcloudAppId: '1302641265',
-    qcloudSecretId: 'AKIDCEAwXaHB96qRntrryiDU9YhEVYnlYmpb',
-    qcloudSecretKey: 'kEzUiiRt56nDMEF1WjmZ7ONWP2NOAhSZ',
-    wxMessageToken: 'weixinmsgtoken',
+    qcloudAppId: '',
+    qcloudSecretId: '',
+    qcloudSecretKey: '',
+    wxMessageToken: '',
     networkTimeout: 30000,
 
     // 微信小程序 App ID
-    appId: 'wxd429458eb8cc994c',
+    appId: '',
 
     // 微信小程序 App Secret
     appSecret: '',
@@ -31,7 +31,7 @@ const CONF = {
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: '@ms54SZe',
+        pass: '',
         char: 'utf8mb4'
     },
 
